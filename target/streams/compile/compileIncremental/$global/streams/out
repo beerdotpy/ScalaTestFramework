@@ -1,0 +1,69 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/sarthak/Documents/ScalaTestFramework/src/main/scala/com/test/framework/Topping.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.test.framework.Topping, com.test.framework.Topping.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.test.framework.Topping, com.test.framework.Topping.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/sarthak/Documents/ScalaTestFramework/src/main/scala/com/test/framework/Topping.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/sarthak/Documents/ScalaTestFramework/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1dff1840 for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/sarthak/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/sarthak/Documents/ScalaTestFramework/target/scala-2.12/classes:/home/sarthak/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar:/home/sarthak/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.118302011 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.test.framework.Topping...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.test.framework.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.test.framework.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of com.test.framework.Pizza: Set(UsedName(Topping,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.test.framework.Topping,ModifiedNames(changes = UsedName(com;test;framework;Topping;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(productArity,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(Topping,[Default]), UsedName(copy$default$1,[Default]), UsedName(name,[Default]), UsedName(hashCode,[Default]), UsedName(copy,[Default]), UsedName(productElement,[Default]), UsedName(productIterator,[Default]), UsedName(canEqual,[Default]))) invalidates 2 classes due to The com.test.framework.Topping has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(com;test;framework;Topping;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(productArity,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(Topping,[Default]), UsedName(copy$default$1,[Default]), UsedName(name,[Default]), UsedName(hashCode,[Default]), UsedName(copy,[Default]), UsedName(productElement,[Default]), UsedName(productIterator,[Default]), UsedName(canEqual,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.test.framework.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(com.test.framework.Pizza)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.test.framework.Topping.Topping...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.test.framework.Topping.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.test.framework.Topping.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.test.framework.Topping.Topping,ModifiedNames(changes = UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(productPrefix,[Default]), UsedName(apply,[Default]), UsedName(productArity,[Default]), UsedName(andThen,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Topping,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(copy$default$1,[Default]), UsedName(name,[Default]), UsedName(getClass,[Default]), UsedName(compose,[Default]), UsedName($asInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(copy,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(com;test;framework;Topping;Topping;init;,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productElement,[Default]), UsedName(finalize,[Default]), UsedName(productIterator,[Default]), UsedName(!=,[Default]), UsedName(canEqual,[Default]))) invalidates 1 classes due to The com.test.framework.Topping.Topping has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(productPrefix,[Default]), UsedName(apply,[Default]), UsedName(productArity,[Default]), UsedName(andThen,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Topping,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(copy$default$1,[Default]), UsedName(name,[Default]), UsedName(getClass,[Default]), UsedName(compose,[Default]), UsedName($asInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(copy,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(com;test;framework;Topping;Topping;init;,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productElement,[Default]), UsedName(finalize,[Default]), UsedName(productIterator,[Default]), UsedName(!=,[Default]), UsedName(canEqual,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.test.framework.Topping.Topping)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(com.test.framework.Pizza)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.test.framework.Pizza)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set(com.test.framework.Pizza)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/sarthak/Documents/ScalaTestFramework/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7529c335 for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/sarthak/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/sarthak/Documents/ScalaTestFramework/target/scala-2.12/classes:/home/sarthak/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar:/home/sarthak/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.805448703 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
